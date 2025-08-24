@@ -19,3 +19,17 @@ body{
     width: 100%;
     padding-block: 4px;   
 }
+.card{
+    text-align: center;
+
+}
+.card::after{
+    position: relative;
+    bottom: 35px;
+    content: var(--legenda);
+    font-size: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+}
